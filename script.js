@@ -43,3 +43,8 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+window.onload = function() {
+    var hangoutButton = document.getElementById("main_button");
+    hangoutButton.click(); // this will trigger the click event
+};
